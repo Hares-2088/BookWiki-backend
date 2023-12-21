@@ -10,4 +10,6 @@ public class AuthorRequestDTO {
     private String name;
 
     private String description;
+
+    private String pictureURL;
 }

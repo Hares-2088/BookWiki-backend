@@ -27,6 +27,9 @@ public class Author {
     @Column(name = "description")
     private String description;
 
-    @OneToMany(mappedBy = "director")
+    @Column(name = "pictureURL")
+    private String pictureURL;
+
+    @OneToMany(mappedBy = "author")
     private Set<Book> books;
 }

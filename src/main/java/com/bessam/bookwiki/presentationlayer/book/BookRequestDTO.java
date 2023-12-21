@@ -20,4 +20,6 @@ public class BookRequestDTO {
     private String coverImageLink;
 
     private String description;
+
+    private String authorId;
 }
